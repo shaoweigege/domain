@@ -20,7 +20,7 @@ func main() {
 	// 	return
 	// }
 
-	status, err := domain.AvailableCheck("sendizosdfs.com", d.Dial)
+	status, err := domain.AvailableCheck("mynewdomainexample.com", d.Dial)
 	fmt.Println(status, err)
 
 	fmt.Println("done")
